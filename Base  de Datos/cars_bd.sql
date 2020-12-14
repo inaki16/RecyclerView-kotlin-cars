@@ -19,7 +19,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Base de datos: `dragonball_bd`
+-- Base de datos: `cars_bd`
 --
 
 -- --------------------------------------------------------
@@ -39,16 +39,16 @@ CREATE TABLE `item` (
 -- Volcado de datos para la tabla `item`
 --
 
-INSERT INTO `item` (`id`, `titulo`, `descripcion`, `imgResource`) VALUES
-(1, 'Saga de Broly', 'Ultima pelicula de DB, peleas epicas.', 'saga_broly.jpg'),
-(2, 'Super sayayines 4', 'La ultima transformacion de la saga no canon.', 'ssj4s.jpg'),
-(3, 'Super Sayayiness Blues', 'Goku y Vegeta, la transformacion de dioses.', 'ssj_blues.jpg'),
-(4, 'Goku ultrainstinto', 'Infaltablñe power-up a Goku.', 'ultrainsitinto.jpeg'),
-(5, 'Super Vegeta Blue x2', 'Diferentes transformaciones de super Vegeta.', 'super_vegeta.jpg'),
-(6, 'Vegeta sapbe', 'Vegeta sapbe o no sapbe xD.', 'vegeta_blue.jpg');
+INSERT INTO `item` (`id`,`descripcion`,`imgResource`) VALUES
+(1, 'Toyota', 'Yaris,Auris', 'toyota.png'),
+(2, 'Hyundai', 'Tucson', 'hyundai.jpg'),
+(3, 'Marcedese', 'Clase A,Clase B,Clase C,Clase CLA', 'marcedese.png'),
+(4, 'Bentley', 'Continental', 'bentley.png'),
+(5, 'Nissan', 'Micra,Juke', 'nissan.png'),
+(6, 'Ford', 'Focus,Fiesta,EcoSport ST,Mustang, Mustang Mach-E', 'ford.png');
 
 --
--- Índices para tablas volcadas
+-- �?ndices para tablas volcadas
 --
 
 --
